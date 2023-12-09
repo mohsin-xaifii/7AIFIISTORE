@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>7AIFII STORE</title>
+  </head>
+  <body>
+    <div id="cursor"></div>
+
+    <div id="main">
+      <!-- NAVBAR-INNER -->
+      <div id="nav-inner">
+        <div class="nav-inner-left">
+          <ul>
+            <li>
+              <a href="collection.html">
+                <h1 onmouseenter="changeImg('img/hoodieimg.jpeg')">HOODIES</h1>
+              </a>
+            </li>
+            <li>
+              <a href="collection.html">
+                <h1 onmouseenter="changeImg('img/sweatshirtimg.webp')">
+                  SWEATSHIRTS
+                </h1>
+              </a>
+            </li>
+            <li>
+              <a href="collection.html">
+                <h1 onmouseenter="changeImg('img/shirtimg.jpeg')">SHIRTS</h1>
+              </a>
+            </li>
+            <li>
+              <a href="collection.html">
+                <h1 onmouseenter="changeImg('img/tshirtimg.jpeg')">
+                  T-SHIRTS
+                </h1>
+              </a>
+            </li>
+            <li>
+              <a href="collection.html">
+                <h1 onmouseenter="changeImg('img/jacketimg.jpeg')">JACKETS</h1>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="nav-inner-right">
+          <a href="collection.html">
+            <img id="slider" src="img/hoodieimg.jpeg" alt="" />
+          </a>
+          <!-- <a href="#"></a>
+          <a href="#"></a>
+          <a href="#"></a>
+          <a href="#"></a> -->
+        </div>
+      </div>
+
+      <!-- NAVBAR -->
+      <nav>
+        <div class="left-nav">
+          <a href="index.html">
+            <img id="logo" src="img/logoblack.png" />
+          </a>
+          <div id="navicon">
+            <i id="hamicon" class="ri-menu-line"></i>
+            <i id="close-btn" class="ri-close-line"></i>
+          </div>
+        </div>
+
+        <div class="right-nav">
+          <a href="#">
+            <i id="cart-icon" class="ri-shopping-cart-line"> </i>
+          </a>
+        </div>
+      </nav>
+
+      <!-- CART_INNER -->
+
+      <div class="cart-inner" id="cart-inner">
+        <div class="cart-inner-heading">
+          <h1>Your Cart</h1>
+          <i id="cart-close-btn" class="ri-close-line"></i>
+        </div>
+
+        <div class="inner-content">
+          <div class="empty-msg">
+            <h3>No Items Found.</h3>
+          </div>
+          <div>
+            <a href="collection.html">
+              <button>GO SEE PRODUCTS</button>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- HEADER -->
+      <header>
+        <div class="heading">
+          <h1 class="header-heading">Elevate Your <span>Urban</span></h1>
+          <h1 class="header-wardrobe">Wardrobe Game.</h1>
+          <div class="header-collection">
+            <a href="collection.html">Explore Our Collection</a>
+            <i class="ri-arrow-right-up-line"></i>
+          </div>
+        </div>
+
+        <div>
+          <img
+            src="img/free-photo-of-man-wearing-a-casual-trendy-outfit-standing-on-steps-in-sunlight.jpeg"
+            alt=""
+          />
+          <!-- <span id="img-line"></span> -->
+        </div>
+      </header>
+
+      <!-- CATEGORY SECTION -->
+      <section class="category-section">
+        <div class="category">
+          <a href="collection.html">
+            <img src="img/hoodieimg.jpeg" alt="" />
+          </a>
+          <h1>HOODIES</h1>
+        </div>
+        <div id="cat" class="category">
+          <a href="collection.html">
+            <img src="img/sweatshirtimg.webp" alt="" />
+          </a>
+          <h1>SWEATSHIRTS</h1>
+        </div>
+        <div class="category">
+          <a href="collection.html">
+            <img src="img/shirtimg.jpeg" alt="" />
+          </a>
+          <h1>SHIRTS</h1>
+        </div>
+        <div class="category">
+          <a href="collection.html">
+            <img src="img/tshirtimg.jpeg" alt="" />
+          </a>
+          <h1>T SHIRTS</h1>
+        </div>
+        <div class="category">
+          <a href="collection.html">
+            <img src="img/jacketimg.jpeg" alt="" />
+          </a>
+          <h1>JACKETS</h1>
+        </div>
+      </section>
+
+      <!-- INFINITE BRAND LOGO -->
+      <div id="infinite-loop">
+        <div id="logo-loop">
+          <img src="img/logoblack.png" alt="" />
+          <span>•</span>
+          <h1>7AIFII</h1>
+        </div>
+        <div id="logo-loop">
+          <img src="img/logoblack.png" alt="" />
+          <span>•</span>
+          <h1>7AIFII</h1>
+        </div>
+        <div id="logo-loop">
+          <img src="img/logoblack.png" alt="" />
+          <span>•</span>
+          <h1>7AIFII</h1>
+        </div>
+        <div id="logo-loop">
+          <img src="img/logoblack.png" alt="" />
+          <span>•</span>
+          <h1>7AIFII</h1>
+        </div>
+      </div>
+
+      <!-- NEWEST ARRIVAL -->
+      <main>
+        <div id="main-heading">
+          <div class="left-text">
+            <h1>NEWEST</h1>
+          </div>
+          <div class="right-text">
+            <h1>ARRIVAL</h1>
+          </div>
+          <div class="viewall">
+            <a href="collection.html">View All</a>
+            <i class="ri-arrow-right-up-line"></i>
+          </div>
+        </div>
+        <div class="collection">
+          <div class="card">
+            <div class="card-img">
+              <a href="collection.html"
+                ><img src="img/hoodies/hoodie1.jpeg" alt=""
+              /></a>
+            </div>
+            <div class="card-content">
+              <h3>HOODIES</h3>
+              <span>$79.00</span>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-img">
+              <a href="collection.html"
+                ><img src="img/sweatshirts/sweatshirt1.jpeg" alt=""
+              /></a>
+            </div>
+            <div class="card-content">
+              <h3>SWEATSHIRTS</h3>
+              <span>$89.00</span>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-img">
+              <a href="collection.html"
+                ><img src="img/shirts/shirt1.jpg" alt=""
+              /></a>
+            </div>
+            <div class="card-content">
+              <h3>SHIRTS</h3>
+              <span>$69.00</span>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-img">
+              <a href="collection.html"
+                ><img src="img/tshirts/tshirt1.jpeg" alt=""
+              /></a>
+            </div>
+            <div class="card-content">
+              <h3>T-SHIRTS</h3>
+              <span>$49.00</span>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-img">
+              <a href="collection.html"
+                ><img src="img/jackets/jacket1.jpeg" alt=""
+              /></a>
+            </div>
+            <div class="card-content">
+              <h3>JACKETS</h3>
+              <span>$99.00</span>
+            </div>
+          </div>
+          <div id="soon">
+            <h1>MORE COMING <span>SOON</span></h1>
+          </div>
+        </div>
+      </main>
+
+      <!-- PINNED DIV -->
+      <section id="pinned-section">
+        <div id="pinned">
+          <h1>Where art meets attitude.</h1>
+        </div>
+      </section>
+
+      <!-- FOOTER -->
+      <footer>
+        <!-- INFINITE BRAND LOGO -->
+        <div id="infinite-loop2">
+          <div id="logo-loop">
+            <img src="img/logoblack.png" alt="" />
+            <span>•</span>
+            <h1>7AIFII</h1>
+          </div>
+          <div id="logo-loop">
+            <img src="img/logoblack.png" alt="" />
+            <span>•</span>
+            <h1>7AIFII</h1>
+          </div>
+          <div id="logo-loop">
+            <img src="img/logoblack.png" alt="" />
+            <span>•</span>
+            <h1>7AIFII</h1>
+          </div>
+          <div id="logo-loop">
+            <img src="img/logoblack.png" alt="" />
+            <span>•</span>
+            <h1>7AIFII</h1>
+          </div>
+        </div>
+        <div class="footer-main">
+          <div id="footer-content">
+            <div>
+              <h1>Categories</h1>
+              <a href="collection.html"><p>Hoodies</p></a>
+              <a href="collection.html"><p>Sweatshirts</p></a>
+              <a href="collection.html"><p>Shirts</p></a>
+              <a href="collection.html"><p>Tshirts</p></a>
+              <a href="collection.html"><p>Jackets</p></a>
+            </div>
+            <div>
+              <h1>Company</h1>
+              <p>About</p>
+              <p>Blog</p>
+              <p>Contact</p>
+            </div>
+            <div>
+              <h1>Socials</h1>
+              <p>Facebook<i class="ri-facebook-circle-fill"></i></p>
+              <p>Instagram<i class="ri-instagram-fill"></i></p>
+              <p>Youtube<i class="ri-youtube-fill"></i></p>
+              <p>Twitter<i class="ri-twitter-fill"></i></p>
+            </div>
+          </div>
+
+          <div class="img-p">
+            <div id="footer-img">
+              <img src="img/pexels-photo-3768005.jpeg" alt="" />
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <!-- GSAP -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"
+      integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!-- SCROLLTRIGGER -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"
+      integrity="sha512-Ic9xkERjyZ1xgJ5svx3y0u3xrvfT/uPkV99LBwe68xjy/mGtO+4eURHZBW2xW4SZbFrF1Tf090XqB+EVgXnVjw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="product.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

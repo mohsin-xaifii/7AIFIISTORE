@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="collection.css" />
+    <title>Collection</title>
+  </head>
+
+  <body>
+    <div id="cursor"></div>
+    <div class="main">
+
+
+      <!-- NAVBAR -->
+      <nav>
+        <div class="left-nav">
+          <a href="index.html">
+            <img id="logo" src="img/logoblack.png" />
+          </a>
+        </div>
+
+        <div class="right-nav">
+          <a href="#">
+            <i id="cart-icon" class="ri-shopping-cart-line cart">
+              <span id="cart-count">0</span>  
+            </i>
+          </a>
+          
+        </div>
+      </nav>
+
+      <!-- CART_INNER -->
+
+      <div class="cart-inner" id="cart-inner">
+
+        <div class="cart-inner-heading">
+          <h1>Your Cart</h1>
+          <i id="cart-close-btn" class="ri-close-line"></i>
+        </div>
+
+        <div class="inner-content">
+            <div class="inner-cart-img">
+              <img src="img/jacketimg.jpeg" alt="">
+              <div class="inner-cart-content">
+                <h3>
+                  JACKETS
+                 </h3>
+                 <span>$99</span>
+               </div>
+            </div>
+            <i id="" class="ri-close-line"></i>
+        </div>
+        
+
+      </div>
+
+      <!-- HEADER -->
+      <header>
+        <div>
+          <h1>COLLECTION</h1>
+        </div>
+
+        <!-- <div id="filter-category">
+          <button class="filter-btn active" id="all">ALL</button>
+          <button class="filter-btn" id="hoodies">HOODIES</button>
+          <button class="filter-btn" id="sweatshirts">SWEATSHIRTS</button>
+          <button class="filter-btn" id="shirts">SHIRTS</button>
+          <button class="filter-btn" id="tshirts">T-SHIRTS</button>
+          <button class="filter-btn" id="jackets">JACKETS</button>
+        </div> -->
+      </header>
+
+      <main>
+        <div id="filterable">
+        </div>
+      </main>
+
+      <!-- FOOTER -->
+      <footer>
+        <!-- INFINITE BRAND LOGO -->
+        <div id="infinite-loop2">
+          <div id="logo-loop">
+            <img src="img/logoblack.png" alt="" />
+            <span>•</span>
+            <h1>7AIFII</h1>
+          </div>
+          <div id="logo-loop">
+            <img src="img/logoblack.png" alt="" />
+            <span>•</span>
+            <h1>7AIFII</h1>
+          </div>
+          <div id="logo-loop">
+            <img src="img/logoblack.png" alt="" />
+            <span>•</span>
+            <h1>7AIFII</h1>
+          </div>
+          <div id="logo-loop">
+            <img src="img/logoblack.png" alt="" />
+            <span>•</span>
+            <h1>7AIFII</h1>
+          </div>
+        </div>
+        <div class="footer-main">
+          <div id="footer-content">
+            <div>
+              <h1>Categories</h1>
+              <a href="collection.html"><p>Hoodies</p></a>
+              <a href="collection.html"><p>Sweatshirts</p></a>
+              <a href="collection.html"><p>Shirts</p></a>
+              <a href="collection.html"><p>Tshirts</p></a>
+              <a href="collection.html"><p>Jackets</p></a>
+            </div>
+            <div>
+              <h1>Company</h1>
+              <p>About</p>
+              <p>Blog</p>
+              <p>Contact</p>
+            </div>
+            <div>
+              <h1>Socials</h1>
+              <p>Facebook<i class="ri-facebook-circle-fill"></i></p>
+              <p>Instagram<i class="ri-instagram-fill"></i></p>
+              <p>Youtube<i class="ri-youtube-fill"></i></p>
+              <p>Twitter<i class="ri-twitter-fill"></i></p>
+            </div>
+          </div>
+
+          <div class="img-p">
+            <div id="footer-img">
+              <img src="img/pexels-photo-3768005.jpeg" alt="" />
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <!-- GSAP -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"
+      integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!-- SCROLLTRIGGER -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"
+      integrity="sha512-Ic9xkERjyZ1xgJ5svx3y0u3xrvfT/uPkV99LBwe68xjy/mGtO+4eURHZBW2xW4SZbFrF1Tf090XqB+EVgXnVjw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="product.js"></script>
+    <script src="collection.js"></script>
+  </body>
+</html>
